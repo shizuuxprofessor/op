@@ -4,10 +4,10 @@ import datetime
 import os
 # KALIAYT JOIN TO MORE UPDATES 
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('7473533353:AAGnX-M8Qh09nnIfNOiiO5df4MS4DNdL344')
+bot = telebot.TeleBot('7668634322:AAG9VeqvWU09XSQJLkPuQoBHdRCTSF25AVw')
 # DEVELOPER --> @Pyschoboi 
 # Admin user IDs
-admin_id = ["930577300"]
+admin_id = ["5172005896"]
 
 # File to store allowed user IDs and their subscription expiry
 USER_FILE = "users.txt"
@@ -247,7 +247,7 @@ f"🌪️ **𝗧𝗮𝗿𝗴𝗲𝘁 𝗸𝗼 𝗰𝗵𝗵𝗼𝗱𝗻𝗮 𝗺�
     
     keyboard = telebot.types.InlineKeyboardMarkup()
     keyboard.add(
-        telebot.types.InlineKeyboardButton("𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url="https://t.me/+-oQA9Bu8FGNlNzU1")
+        telebot.types.InlineKeyboardButton("𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url="https://t.me/+xvcuj12arrAwMGI1")
     )
     
     bot.reply_to(message, response, parse_mode='Markdown', reply_markup=keyboard)
@@ -321,7 +321,7 @@ def show_plan(message):
     response += "- 𝗕𝗮𝘀𝗶𝗰 𝗣𝗹𝗮𝗻: $10/𝗺𝗼𝗻𝘁𝗵\n"
     response += "- 𝗣𝗿𝗼 𝗣𝗹𝗮𝗻: $20/𝗺𝗼𝗻𝘁𝗵\n"
     response += "- 𝗣𝗿𝗲𝗺𝘂𝗶𝗺 𝗣𝗹𝗮𝗻: $30/𝗺𝗼𝗻𝘁𝗵\n"
-    response = "- 𝗗𝗠 𝗠𝗘 -- @MADARA_SHER \n"
+    response = "- 𝗗𝗠 𝗠𝗘 -- @MXDprofessor \n"
 
     bot.reply_to(message, response)
 
@@ -379,17 +379,17 @@ def show_user_id(message):
 @bot.message_handler(commands=['canary'])
 def show_user_id(message):
     user_id = str(message.chat.id)
-    response = f"𝗖𝗮𝗻𝗮𝗿𝘆 𝗮𝗽𝗸 --> https://t.me/CRACKINGxTEAM/10189"
+    response = f"𝗖𝗮𝗻𝗮𝗿𝘆 𝗮𝗽𝗸 --> https://t.me/+xvcuj12arrAwMGI1"
     bot.reply_to(message, response, parse_mode='Markdown')
 
 @bot.message_handler(commands=['MADARA'])
 def show_help(message):
-    response = """𝗜 𝗸𝗻𝗼𝘄 𝘆𝗼𝘂𝗿 𝗰𝗼𝗺𝗺𝗮𝗻𝗱 𝗶𝘀 --> 𝗠𝗔𝗗𝗔𝗥𝗔 \n𝗕𝗨𝗧 𝗛𝗜𝗦 𝗕𝗢𝗧 𝗙𝗔𝗧𝗛𝗘𝗥 𝗜𝗦 @MADARA_SHER \n𝗢𝗪𝗡𝗘𝗥 𝗜𝗦 @MADARA_SHER 
+    response = """𝗜 𝗸𝗻𝗼𝘄 𝘆𝗼𝘂𝗿 𝗰𝗼𝗺𝗺𝗮𝗻𝗱 𝗶𝘀 --> 𝗠𝗔𝗗𝗔𝗥𝗔 \n𝗕𝗨𝗧 𝗛𝗜𝗦 𝗕𝗢𝗧 𝗙𝗔𝗧𝗛𝗘𝗥 𝗜𝗦 @MADARA_SHER \n𝗢𝗪𝗡𝗘𝗥 𝗜𝗦 @XDprofessor
 """
     keyboard = telebot.types.InlineKeyboardMarkup()
     keyboard.row(
-        telebot.types.InlineKeyboardButton('𝗨𝗣𝗗𝗔𝗧𝗘𝗦', url='https://t.me/+-oQA9Bu8FGNlNzU1'),
-        telebot.types.InlineKeyboardButton('𝗦𝗨𝗣𝗣𝗢𝗥𝗧', url='https://t.me/+-oQA9Bu8FGNlNzU1')
+        telebot.types.InlineKeyboardButton('𝗨𝗣𝗗𝗔𝗧𝗘𝗦', url='https://t.me/+xvcuj12arrAwMGI1'),
+        telebot.types.InlineKeyboardButton('𝗦𝗨𝗣𝗣𝗢𝗥𝗧', url='https://t.me/+xvcuj12arrAwMGI1')
     )
 
     bot.reply_to(message, response, parse_mode='Markdown', reply_markup=keyboard)
@@ -413,8 +413,8 @@ def welcome_start(message):
     
     keyboard = telebot.types.InlineKeyboardMarkup()
     keyboard.row(
-        telebot.types.InlineKeyboardButton('𝗨𝗣𝗗𝗔𝗧𝗘𝗦', url='https://t.me/+-oQA9Bu8FGNlNzU1'),
-        telebot.types.InlineKeyboardButton('𝗦𝗨𝗣𝗣𝗢𝗥𝗧', url='https://t.me/+-oQA9Bu8FGNlNzU1')  
+        telebot.types.InlineKeyboardButton('𝗨𝗣𝗗𝗔𝗧𝗘𝗦', url='https://t.me/+xvcuj12arrAwMGI1'),
+        telebot.types.InlineKeyboardButton('𝗦𝗨𝗣𝗣𝗢𝗥𝗧', url='https://t.me/+xvcuj12arrAwMGI1')  
     )
 
     bot.reply_to(message, response, reply_markup=keyboard)
